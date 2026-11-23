@@ -1,0 +1,8 @@
+__pycache__/
+*.py[cod]
+*.bak
+*.tmp
+.DS_Store
+
+# Cached downloaded channel logos and rendered badges (auto-generated on launch)
+logos/

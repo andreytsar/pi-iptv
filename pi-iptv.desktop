@@ -1,0 +1,12 @@
+[Desktop Entry]
+Version=1.0
+Name=IPTV
+GenericName=IPTV Player
+Comment=Watch Hebrew & English Free Public IPTV (PyQt5 + mpv)
+Exec=/home/andrey/pi-iptv/launch-iptv.sh
+TryExec=/usr/bin/mpv
+Icon=/home/andrey/pi-iptv/iptv.svg
+Terminal=false
+Type=Application
+Categories=AudioVideo;Player;TV;
+Keywords=IPTV;TV;Live;Streams;Israel;Hebrew;English;
