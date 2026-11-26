@@ -2,6 +2,8 @@
 
 Lightweight, dark-themed **PyQt5 + `mpv`** IPTV player built for Raspberry Pi OS (`labwc` / Wayland + XWayland) with a verified free public playlist (Israel/Hebrew & English).
 
+![Pi IPTV Player](docs/screenshot.png)
+
 ## Features
 - **Hardware-Accelerated `mpv` Playback:** Uses Raspberry Pi 4 H.264/HEVC hardware decoding (`v4l2m2m-copy,drm-copy`) with `--profile=fast` GPU scaling.
 - **Automatic 720p Cap (`max720p.lua`):** Single-pass `on_preloaded` Lua hook selects the sharpest HLS variant `<= 720p` and syncs its matching audio track before decoder initialization.
